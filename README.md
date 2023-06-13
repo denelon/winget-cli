@@ -5,7 +5,9 @@
 
 ![winget install wingetcreate](.github/images/WingetInstall.gif)
 
-If you are new to the Windows Package Manager, you might want to [Explore the Windows Package Manager tool](https://docs.microsoft.com/learn/modules/explore-windows-package-manager-tool/?WT.mc_id=AZ-MVP-5004737). The packages available to the client are in the [Windows Package Manager Community Repository](https://github.com/microsoft/winget-pkgs).
+If you are new to the Windows Package Manager, you might want to [Explore the Windows Package Manager tool](https://docs.microsoft.com/learn/modules/explore-windows-package-manager-tool/?WT.mc_id=AZ-MVP-5004737). The packages available to the client are in the [Windows Package Manager Community Repository](https://github.com/microsoft/winget-pkgs). WinGet ships with two sources. The first "msstore" is the Microsoft Store (free packages rated "e" for everyone). The second is "winget" the [WinGet community repository](https://github.com/microsoft/winget-pkgs).
+
+> **Note**: Group Policy may be enabled and modify the available sources. Running `winget --info` will display any policies configured for WinGet.
 
 ## Installing The Client
 
